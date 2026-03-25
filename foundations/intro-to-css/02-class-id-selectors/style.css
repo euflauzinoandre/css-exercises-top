@@ -1,1 +1,19 @@
 /* Add CSS Styling */
+.red {
+	background-color: pink;
+}
+
+.red.cooler {
+	font-size: 32px;
+}
+
+#blue-text {
+	color: blue;
+	font-size: 40px;
+}
+
+#green-background {
+	background-color: rgba(0, 255, 13, 0.521);
+	font-size: 32px;
+	font-weight: bold;
+}
