@@ -1,14 +1,15 @@
 /* Add CSS Styling */
-.black {
+.inverted,
+.fancy {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 24px;
+}
+
+.inverted {
 	color: white;
 	background-color: black;
 }
 
-.yellow {
+.fancy {
 	background-color: yellow;
-}
-
-.font {
-	font-weight: bold;
-	font-size: 43px;
 }
