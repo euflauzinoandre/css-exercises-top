@@ -15,55 +15,89 @@ body {
   justify-content: center;
 }
 
+
 .modal {
-  background: white;
-  width: 480px;
-  border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+	display: flex;
+	width: 480px;
+	margin: auto;
+	margin-top: auto;
+	background-color: white;
+	padding: 20px;
+ 	border-radius: 10px;
+	box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.container-icon {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	min-width: 40px;
+	padding-right: 15px;
+	padding-top: 3px;
 }
 
 .icon {
-  color: royalblue;
-  font-size: 26px;
-  font-weight: 700;
-  background: lavender;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: royalblue;
+	font-size: 26px;
+	font-weight: 700;
+	height: 40px;
+	width: 40px;
+	background: lavender;
+	border-radius: 50%;
+}
+
+.container-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.info {
+	display: flex;
+	padding: 5px;
+}
+
+#title {
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-start;
+	font-weight: bold;
+	font-size: larger;
 }
 
 .close-button {
-  background: #eee;
-  border-radius: 50%;
-  color: #888;
-  font-weight: 400;
-  font-size: 16px;
-  height: 24px;
-  width: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #eee;
-  padding: 0;
+	background: #eee;
+	border-radius: 50%;
+	color: #888;
+	font-weight: 400;
+	font-size: 16px;
+	height: 24px;
+	width: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #eee;
+	padding: 0;
 }
 
 button {
-  cursor: pointer;
-  padding: 8px 16px;
-  border-radius: 8px;
+	display: flex;
+	margin-right: 5px;
+	cursor: pointer;
+	padding: 8px 16px;
+	border-radius: 8px;
 }
 
 button.continue {
-  background: royalblue;
-  border: 1px solid royalblue;
-  color: white;
+	background: royalblue;
+	border: 1px solid royalblue;
+	color: white;
 }
 
 button.cancel {
-  background: white;
-  border: 1px solid #ddd;
-  color: royalblue;
+	background: white;
+	border: 1px solid #ddd;
+	color: royalblue;
 }
